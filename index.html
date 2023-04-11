@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2 Challange</title>
+</head>
+
+<body>
+    <h1>A Personalized Form</h1>
+    <form action="#">
+        <fieldset>
+            <!-- Radio buttons -->
+            <legend>Form:</legend>
+            <label for="fcolors">Favourite Colour:</label>
+            <table border="2px">
+                <tr>
+                    <td>
+                        <input id="fcolors-r" name="fcolours-r" type="radio" value="Red">red
+                    </td>
+                    <td>
+                        <input id="fcolors-y" name="fcolours-y" type="radio" value="Yellow">Yellow
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="fcolors-g" name="fcolours-g" type="radio" value="Green">Green
+                    </td>
+                    <td>
+                        <input id="fcolors-p" name="fcolours-p" type="radio" value="Pink">Pink
+                    </td>
+                </tr>
+            </table>
+
+            <br>
+            <!-- Check boxes -->
+            <label for="ffood">Please choose your favourite food</label>
+            <input id="ffood-p" name="ffood-p" type="checkbox" value="Pasta">Pasta
+            <input id="ffood-r" name="ffood-r" type="checkbox" value="Rice">Rice
+            <input id="ffood-d" name="ffood-d" type="checkbox" value="Deserts">Deserts
+            <input id="ffood-c" name="ffood-c" type="checkbox" value="Cake">Cake
+            <br>
+            <!-- File upload input -->
+            <label for="file">File Upload:</label>
+            <input id="file-upload" name="file-upload" type="file" required>
+            <br>
+            <!-- Text area -->
+            <label for="ftext-area">Any other favourite foods?:</label>
+            <textarea name="ftext-area" id="ftext-area" cols="100" rows="5">More Favourite Foods?</textarea>
+            <br>
+            <!-- Drop down list -->
+            <label for="drop-down-list">Drop Down List</label>
+            <select name="fplace" id="fplace">
+                <option value="Paris">Paris</option>
+                <option value="London">London</option>
+                <option value="New-York">New York</option>
+                <option value="Italy">Italy</option>
+            </select>
+
+        </fieldset>
+
+
+    </form>
+
+</body>
+
+</html>
